@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5BE8E32193EE1E005530B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE8E22193EE1E005530B6 /* AppDelegate.swift */; };
+		DC5BE8E52193EE1E005530B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE8E42193EE1E005530B6 /* ViewController.swift */; };
+		DC5BE8E82193EE1E005530B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5BE8E62193EE1E005530B6 /* Main.storyboard */; };
+		DC5BE8EA2193EE20005530B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5BE8E92193EE20005530B6 /* Assets.xcassets */; };
+		DC5BE8ED2193EE20005530B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5BE8EB2193EE20005530B6 /* LaunchScreen.storyboard */; };
+		DC5BE8F82193EE20005530B6 /* Ex14_SwiftSensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE8F72193EE20005530B6 /* Ex14_SwiftSensorTests.swift */; };
+		DC5BE9032193EE20005530B6 /* Ex14_SwiftSensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE9022193EE20005530B6 /* Ex14_SwiftSensorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5BE8F42193EE20005530B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5BE8D72193EE1D005530B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5BE8DE2193EE1E005530B6;
+			remoteInfo = Ex14_SwiftSensor;
+		};
+		DC5BE8FF2193EE20005530B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5BE8D72193EE1D005530B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5BE8DE2193EE1E005530B6;
+			remoteInfo = Ex14_SwiftSensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC5BE8DF2193EE1E005530B6 /* Ex14_SwiftSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex14_SwiftSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5BE8E22193EE1E005530B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5BE8E42193EE1E005530B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5BE8E72193EE1E005530B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5BE8E92193EE20005530B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5BE8EC2193EE20005530B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5BE8EE2193EE20005530B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5BE8F32193EE20005530B6 /* Ex14_SwiftSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ex14_SwiftSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5BE8F72193EE20005530B6 /* Ex14_SwiftSensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex14_SwiftSensorTests.swift; sourceTree = "<group>"; };
+		DC5BE8F92193EE20005530B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5BE8FE2193EE20005530B6 /* Ex14_SwiftSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ex14_SwiftSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5BE9022193EE20005530B6 /* Ex14_SwiftSensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex14_SwiftSensorUITests.swift; sourceTree = "<group>"; };
+		DC5BE9042193EE20005530B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5BE8DC2193EE1E005530B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5BE8F02193EE20005530B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5BE8FB2193EE20005530B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5BE8D62193EE1D005530B6 = {
+			isa = PBXGroup;
+			children = (
+				DC5BE8E12193EE1E005530B6 /* Ex14_SwiftSensor */,
+				DC5BE8F62193EE20005530B6 /* Ex14_SwiftSensorTests */,
+				DC5BE9012193EE20005530B6 /* Ex14_SwiftSensorUITests */,
+				DC5BE8E02193EE1E005530B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5BE8E02193EE1E005530B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE8DF2193EE1E005530B6 /* Ex14_SwiftSensor.app */,
+				DC5BE8F32193EE20005530B6 /* Ex14_SwiftSensorTests.xctest */,
+				DC5BE8FE2193EE20005530B6 /* Ex14_SwiftSensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5BE8E12193EE1E005530B6 /* Ex14_SwiftSensor */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE8E22193EE1E005530B6 /* AppDelegate.swift */,
+				DC5BE8E42193EE1E005530B6 /* ViewController.swift */,
+				DC5BE8E62193EE1E005530B6 /* Main.storyboard */,
+				DC5BE8E92193EE20005530B6 /* Assets.xcassets */,
+				DC5BE8EB2193EE20005530B6 /* LaunchScreen.storyboard */,
+				DC5BE8EE2193EE20005530B6 /* Info.plist */,
+			);
+			path = Ex14_SwiftSensor;
+			sourceTree = "<group>";
+		};
+		DC5BE8F62193EE20005530B6 /* Ex14_SwiftSensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE8F72193EE20005530B6 /* Ex14_SwiftSensorTests.swift */,
+				DC5BE8F92193EE20005530B6 /* Info.plist */,
+			);
+			path = Ex14_SwiftSensorTests;
+			sourceTree = "<group>";
+		};
+		DC5BE9012193EE20005530B6 /* Ex14_SwiftSensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BE9022193EE20005530B6 /* Ex14_SwiftSensorUITests.swift */,
+				DC5BE9042193EE20005530B6 /* Info.plist */,
+			);
+			path = Ex14_SwiftSensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5BE8DE2193EE1E005530B6 /* Ex14_SwiftSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5BE9072193EE20005530B6 /* Build configuration list for PBXNativeTarget "Ex14_SwiftSensor" */;
+			buildPhases = (
+				DC5BE8DB2193EE1E005530B6 /* Sources */,
+				DC5BE8DC2193EE1E005530B6 /* Frameworks */,
+				DC5BE8DD2193EE1E005530B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ex14_SwiftSensor;
+			productName = Ex14_SwiftSensor;
+			productReference = DC5BE8DF2193EE1E005530B6 /* Ex14_SwiftSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC5BE8F22193EE20005530B6 /* Ex14_SwiftSensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5BE90A2193EE20005530B6 /* Build configuration list for PBXNativeTarget "Ex14_SwiftSensorTests" */;
+			buildPhases = (
+				DC5BE8EF2193EE20005530B6 /* Sources */,
+				DC5BE8F02193EE20005530B6 /* Frameworks */,
+				DC5BE8F12193EE20005530B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5BE8F52193EE20005530B6 /* PBXTargetDependency */,
+			);
+			name = Ex14_SwiftSensorTests;
+			productName = Ex14_SwiftSensorTests;
+			productReference = DC5BE8F32193EE20005530B6 /* Ex14_SwiftSensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC5BE8FD2193EE20005530B6 /* Ex14_SwiftSensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5BE90D2193EE20005530B6 /* Build configuration list for PBXNativeTarget "Ex14_SwiftSensorUITests" */;
+			buildPhases = (
+				DC5BE8FA2193EE20005530B6 /* Sources */,
+				DC5BE8FB2193EE20005530B6 /* Frameworks */,
+				DC5BE8FC2193EE20005530B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5BE9002193EE20005530B6 /* PBXTargetDependency */,
+			);
+			name = Ex14_SwiftSensorUITests;
+			productName = Ex14_SwiftSensorUITests;
+			productReference = DC5BE8FE2193EE20005530B6 /* Ex14_SwiftSensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5BE8D72193EE1D005530B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 6272;
+				TargetAttributes = {
+					DC5BE8DE2193EE1E005530B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DC5BE8F22193EE20005530B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DC5BE8DE2193EE1E005530B6;
+					};
+					DC5BE8FD2193EE20005530B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DC5BE8DE2193EE1E005530B6;
+					};
+				};
+			};
+			buildConfigurationList = DC5BE8DA2193EE1E005530B6 /* Build configuration list for PBXProject "Ex14_SwiftSensor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5BE8D62193EE1D005530B6;
+			productRefGroup = DC5BE8E02193EE1E005530B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5BE8DE2193EE1E005530B6 /* Ex14_SwiftSensor */,
+				DC5BE8F22193EE20005530B6 /* Ex14_SwiftSensorTests */,
+				DC5BE8FD2193EE20005530B6 /* Ex14_SwiftSensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5BE8DD2193EE1E005530B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5BE8ED2193EE20005530B6 /* LaunchScreen.storyboard in Resources */,
+				DC5BE8EA2193EE20005530B6 /* Assets.xcassets in Resources */,
+				DC5BE8E82193EE1E005530B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5BE8F12193EE20005530B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5BE8FC2193EE20005530B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5BE8DB2193EE1E005530B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5BE8E52193EE1E005530B6 /* ViewController.swift in Sources */,
+				DC5BE8E32193EE1E005530B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5BE8EF2193EE20005530B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5BE8F82193EE20005530B6 /* Ex14_SwiftSensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5BE8FA2193EE20005530B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5BE9032193EE20005530B6 /* Ex14_SwiftSensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5BE8F52193EE20005530B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5BE8DE2193EE1E005530B6 /* Ex14_SwiftSensor */;
+			targetProxy = DC5BE8F42193EE20005530B6 /* PBXContainerItemProxy */;
+		};
+		DC5BE9002193EE20005530B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5BE8DE2193EE1E005530B6 /* Ex14_SwiftSensor */;
+			targetProxy = DC5BE8FF2193EE20005530B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC5BE8E62193EE1E005530B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5BE8E72193EE1E005530B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC5BE8EB2193EE20005530B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5BE8EC2193EE20005530B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5BE9052193EE20005530B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC5BE9062193EE20005530B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5BE9082193EE20005530B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ex14_SwiftSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ex14.Ex14-SwiftSensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC5BE9092193EE20005530B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ex14_SwiftSensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ex14.Ex14-SwiftSensor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC5BE90B2193EE20005530B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ex14_SwiftSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ex14.Ex14-SwiftSensorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ex14_SwiftSensor.app/Ex14_SwiftSensor";
+			};
+			name = Debug;
+		};
+		DC5BE90C2193EE20005530B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ex14_SwiftSensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ex14.Ex14-SwiftSensorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ex14_SwiftSensor.app/Ex14_SwiftSensor";
+			};
+			name = Release;
+		};
+		DC5BE90E2193EE20005530B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ex14_SwiftSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ex14.Ex14-SwiftSensorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ex14_SwiftSensor;
+			};
+			name = Debug;
+		};
+		DC5BE90F2193EE20005530B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ex14_SwiftSensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ex14.Ex14-SwiftSensorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ex14_SwiftSensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5BE8DA2193EE1E005530B6 /* Build configuration list for PBXProject "Ex14_SwiftSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5BE9052193EE20005530B6 /* Debug */,
+				DC5BE9062193EE20005530B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5BE9072193EE20005530B6 /* Build configuration list for PBXNativeTarget "Ex14_SwiftSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5BE9082193EE20005530B6 /* Debug */,
+				DC5BE9092193EE20005530B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5BE90A2193EE20005530B6 /* Build configuration list for PBXNativeTarget "Ex14_SwiftSensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5BE90B2193EE20005530B6 /* Debug */,
+				DC5BE90C2193EE20005530B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5BE90D2193EE20005530B6 /* Build configuration list for PBXNativeTarget "Ex14_SwiftSensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5BE90E2193EE20005530B6 /* Debug */,
+				DC5BE90F2193EE20005530B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5BE8D72193EE1D005530B6 /* Project object */;
+}
